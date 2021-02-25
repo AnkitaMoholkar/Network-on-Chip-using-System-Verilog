@@ -1,0 +1,1264 @@
+                                        
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+                                        
+              Version K-2015.06-SP5-1 for linux64 - Feb 26, 2016 
+                                        
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25
+read_sverilog {ps.sv tb_intf.sv}
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+  Loading link library 'gtech'
+Loading sverilog files: '/home/014604460/final_proj_dec6/ps.sv' '/home/014604460/final_proj_dec6/tb_intf.sv' 
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/014604460/final_proj_dec6/ps.sv
+Opening include file switch.sv
+Opening include file my_fifo.v
+Opening include file johanarbi.sv
+Warning:  johanarbi.sv:44: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  johanarbi.sv:45: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Opening include file fifo_int.sv
+Opening include file fifo.sv
+Warning:  fifo_int.sv:16: Redeclaration of port 'empty'. (VER-331)
+Warning:  fifo_int.sv:123: Redeclaration of port 'LOCK'. (VER-331)
+Warning:  fifo_int.sv:40: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:42: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:43: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:45: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:46: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:47: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:54: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:55: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:56: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:59: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:60: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:63: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:64: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:65: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:68: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:70: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:72: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:73: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:74: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:75: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:83: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:84: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:87: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:88: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:91: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:92: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:93: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:100: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:101: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:104: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:105: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:108: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:109: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:112: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:113: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:114: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:136: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:137: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:141: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:144: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:144: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:145: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:145: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:146: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:146: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:153: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:155: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:156: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:157: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:160: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:161: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:162: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:165: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:166: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:169: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:170: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:171: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:174: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:176: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:178: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:180: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:181: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:182: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:183: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:184: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:185: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:192: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:194: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:195: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:196: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:199: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:200: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:201: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:204: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:205: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:208: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:209: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:210: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:211: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:212: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:218: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:220: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:221: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:222: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:225: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:226: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:227: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:230: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:231: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:234: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:235: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:238: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:239: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:240: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:241: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  fifo_int.sv:242: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  switch.sv:10: the undeclared symbol 'cntl0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:10: the undeclared symbol 'empty0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:10: the undeclared symbol 'LOCK0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:11: the undeclared symbol 'cntl1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:11: the undeclared symbol 'empty1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:11: the undeclared symbol 'LOCK1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:12: the undeclared symbol 'cntl2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:12: the undeclared symbol 'empty2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:12: the undeclared symbol 'LOCK2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:13: the undeclared symbol 'cntl3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:13: the undeclared symbol 'empty3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:13: the undeclared symbol 'LOCK3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  switch.sv:86: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  switch.sv:89: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  switch.sv:90: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  switch.sv:91: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Opening include file blobk.sv
+Opening include file m55.sv
+Warning:  m55.sv:10: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  m55.sv:24: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Opening include file nochw2.sv
+Warning:  nochw2.sv:19: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Opening include file perm.sv
+Warning:  nochw2.sv:160: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:161: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:164: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:166: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:168: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:169: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:170: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:174: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:175: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:176: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:177: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:178: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:179: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:180: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:181: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:182: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:183: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:188: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:193: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:194: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:195: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:196: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:198: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:200: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:201: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:202: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:203: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:204: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:206: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:207: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:208: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:209: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:211: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:220: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:221: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:224: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:226: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:228: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:232: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:233: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:234: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:236: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:237: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:238: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:239: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:240: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:241: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:243: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:244: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:246: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:247: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:250: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:251: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:256: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:257: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:258: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:261: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:264: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:289: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:291: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:292: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:296: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:297: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:300: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:301: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:304: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:305: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:308: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:309: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:310: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:313: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:314: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:315: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:336: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:337: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:340: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:341: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:342: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:343: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:345: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:349: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:350: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:353: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:354: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:355: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:361: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:366: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:367: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:368: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:369: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:370: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:404: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:405: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:409: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:410: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:413: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:414: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:417: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:418: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:421: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:422: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:423: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:426: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:427: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:428: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:429: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:437: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:438: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:441: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:442: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:445: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:446: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:449: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:450: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:453: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:454: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:455: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:458: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:459: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:460: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:468: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:469: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:472: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:473: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:476: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:477: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:480: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:481: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:484: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:485: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:486: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:489: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:490: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:491: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:517: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:518: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:521: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:522: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:526: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:527: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:528: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:529: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:530: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:531: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:532: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:539: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:539: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:540: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:540: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:541: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:543: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:544: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:549: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:550: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:551: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:556: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:561: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:561: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:562: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:562: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:563: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:565: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:568: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:569: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:573: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:575: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:581: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:581: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:582: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:582: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:583: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:584: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:586: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:589: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:590: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:594: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:596: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  nochw2.sv:600: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:630: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:631: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:632: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:632: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:632: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:633: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:634: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:634: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:634: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:634: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:634: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:634: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:635: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:635: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:636: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:638: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:639: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  perm.sv:639: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Compiling source file /home/014604460/final_proj_dec6/tb_intf.sv
+Warning:  my_fifo.v:97: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 76 in file
+	'my_fifo.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            80            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fifo_messege line 36 in file
+		'my_fifo.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    M_Dataout_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  Al_Dl_101out_reg   | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     D_IDout_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     S_IDout_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    M_Addrout_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fifo_messege line 49 in file
+		'my_fifo.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    the_FIFO_reg     | Flip-flop | 10240 |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fifo_messege line 55 in file
+		'my_fifo.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    First_inp_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fifo_messege line 65 in file
+		'my_fifo.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    Last_inp_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fifo_messege line 76 in file
+		'my_fifo.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   the_counter_reg   | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Warning:  johanarbi.sv:32: signed to unsigned assignment occurs. (VER-318)
+
+Statistics for case statements in always block at line 13 in file
+	'johanarbi.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            24            |      no/no       |
+===============================================
+
+Inferred memory devices in process
+	in routine arb line 38 in file
+		'johanarbi.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      last_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    int_grant_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Warning:  fifo.sv:76: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 55 in file
+	'fifo.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            59            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine single_fifo line 19 in file
+		'fifo.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       out_reg       | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine single_fifo line 28 in file
+		'fifo.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    the_FIFO_reg     | Flip-flop | 2048  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine single_fifo line 34 in file
+		'fifo.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    First_inp_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine single_fifo line 44 in file
+		'fifo.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    Last_inp_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine single_fifo line 55 in file
+		'fifo.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   the_counter_reg   | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Statistics for case statements in always block at line 30 in file
+	'fifo_int.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            38            |     no/auto      |
+|            44            |     no/auto      |
+|            52            |    auto/auto     |
+|            81            |     no/auto      |
+|            98            |     no/auto      |
+===============================================
+
+Statistics for case statements in always block at line 124 in file
+	'fifo_int.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           134            |     no/auto      |
+|           143            |     no/auto      |
+|           152            |     no/auto      |
+|           191            |     no/auto      |
+|           217            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine fifo_int line 30 in file
+		'fifo_int.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      write_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|       ds_reg        | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      fifos_reg      | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      fifos_reg      | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|      Dlen_reg       | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    counting_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       in_reg        | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine fifo_int line 124 in file
+		'fifo_int.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      read_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   choose_next_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      cntl_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|       sh_reg        | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    fifos_out_reg    | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  fifo_counting_reg  | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    my_output_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    Dlen_fifo_reg    | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      LOCK_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Warning:  switch.sv:127: signed to unsigned assignment occurs. (VER-318)
+Warning:  switch.sv:129: signed to unsigned assignment occurs. (VER-318)
+Warning:  switch.sv:248: signed to unsigned assignment occurs. (VER-318)
+Warning:  switch.sv:249: signed to unsigned assignment occurs. (VER-318)
+
+Statistics for case statements in always block at line 31 in file
+	'switch.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            36            |     no/auto      |
+===============================================
+
+Statistics for case statements in always block at line 104 in file
+	'switch.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           114            |    auto/auto     |
+|           193            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine switch line 31 in file
+		'switch.sv'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|     grant3_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     request_reg     | Latch |   4   |  Y  | N  | N  | N  | -  | -  | -  |
+|      LOCK_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     grant0_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     grant1_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|     grant2_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine switch line 82 in file
+		'switch.sv'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+|     take_next_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+| noc_from_dev_data_reg | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+| noc_from_dev_ctl_reg  | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|      arbing_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+=================================================================================
+
+Inferred memory devices in process
+	in routine switch line 104 in file
+		'switch.sv'.
+================================================================================
+|      Register Name       | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+| inp0.noc_to_dev_ctl_reg  | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+| inp0.noc_to_dev_data_reg | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+| inp1.noc_to_dev_ctl_reg  | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+| inp1.noc_to_dev_data_reg | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+| inp2.noc_to_dev_ctl_reg  | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+| inp2.noc_to_dev_data_reg | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+| inp3.noc_to_dev_ctl_reg  | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+| inp3.noc_to_dev_data_reg | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+================================================================================
+
+Inferred memory devices in process
+	in routine switch line 270 in file
+		'switch.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      dlen_reg       | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       cs_reg        | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      size_reg       | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      slave_reg      | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      temp_reg       | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      flag_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       cmd_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      alen_reg       | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Warning:  switch.sv:31: Netlist for always_comb block contains a latch. (ELAB-974)
+Warning:  switch.sv:104: Netlist for always_comb block contains a latch. (ELAB-974)
+
+Inferred memory devices in process
+	in routine m55 line 12 in file
+		'm55.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      mdata_reg      | Flip-flop | 1556  |  Y  | N  | Y  | N  | N  | N  | N  |
+|      mdata_reg      | Flip-flop |  44   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Warning:  nochw2.sv:202: signed to unsigned conversion occurs. (VER-318)
+Warning:  nochw2.sv:199: signed to unsigned conversion occurs. (VER-318)
+Warning:  nochw2.sv:227: signed to unsigned conversion occurs. (VER-318)
+Warning:  nochw2.sv:247: signed to unsigned assignment occurs. (VER-318)
+Warning:  nochw2.sv:254: signed to unsigned conversion occurs. (VER-318)
+Warning:  nochw2.sv:229: signed to unsigned conversion occurs. (VER-318)
+Warning:  nochw2.sv:229: signed to unsigned conversion occurs. (VER-318)
+Warning:  nochw2.sv:331: signed to unsigned conversion occurs. (VER-318)
+Warning:  nochw2.sv:543: signed to unsigned assignment occurs. (VER-318)
+$display output: We are in cntrl IDLE
+$display output: We are in cntrl read
+$display output: We are in cntrl write
+$display output: Dlen ?
+$display output: (2**Dlen)-1) is ?
+$display output: temp is ????????
+$display output: Starting write response
+$display output: Starting pushout message
+$display output: Starting stopin message
+$display output: Sending read response
+
+Statistics for case statements in always block at line 133 in file
+	'nochw2.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           185            |    auto/auto     |
+|           230            |    auto/auto     |
+|           286            |     no/auto      |
+|           334            |    auto/auto     |
+|           395            |    auto/auto     |
+|           400            |     no/auto      |
+|           434            |     no/auto      |
+|           465            |     no/auto      |
+|           514            |    auto/auto     |
+|           538            |     no/auto      |
+|           560            |     no/auto      |
+|           580            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine noc_intf line 133 in file
+		'nochw2.sv'.
+====================================================================================
+|      Register Name       |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+====================================================================================
+|     make_request_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|        cntrl_reg         | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|         Alen_reg         | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+|         Dlen_reg         | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|       counter_reg        | Flip-flop |  11   |  Y  | N  | N  | N  | N  | N  | N  |
+|         din_reg          | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+|       firstin_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|        pushin_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|        Sourc_reg         | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|         Dest_reg         | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|     Dlen_counter_reg     | Flip-flop |  11   |  Y  | N  | N  | N  | N  | N  | N  |
+|         temp_reg         | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    write_counter_reg     | Flip-flop |  11   |  Y  | N  | N  | N  | N  | N  | N  |
+|        Dlen_r_reg        | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|      read_flag_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|      pushout_d_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|       stopin_d_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|        Dest_d_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       control_reg        | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+|       Sourc_d_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|        writep_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     write_start_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|        D_IDin_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       Al_Dlin_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|        S_IDin_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       M_Addrin_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       M_Datain_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|     resp_counter_reg     | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|       frm_data_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|  ctrl_read_counter_reg   | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       stopout_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|      start_read_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+| Johans_stupid_signal_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|        readp_reg         | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|   fromdata_counter_reg   | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|     resp_or_mess_reg     | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|       Al_Dl_d_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|      D_IDout_d_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|      S_IDout_d_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|     M_Addrout_d_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|     M_Dataout_d_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+====================================================================================
+Warning:  perm.sv:592: signed to unsigned assignment occurs. (VER-318)
+
+Statistics for case statements in always block at line 68 in file
+	'perm.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           132            |    auto/auto     |
+|           140            |    auto/auto     |
+|           148            |    auto/auto     |
+|           156            |     no/auto      |
+|           184            |    auto/auto     |
+|           218            |    auto/auto     |
+|           251            |    auto/auto     |
+|           485            |    auto/auto     |
+|           547            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine perm_blk line 597 in file
+		'perm.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       cmx_reg       | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      round_reg      | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       cx_reg        | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    wow_calc_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       cy_reg        | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      incx_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      incy_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     loaded_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       r1_reg        | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       r2_reg        | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       r3_reg        | Flip-flop |  64   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       px2_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       py2_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       px3_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       py3_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       px4_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       py4_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pvalid_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      outcx_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      outcy_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    outstate_reg     | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     instate_reg     | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   perm_state_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     stopin_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/014604460/final_proj_dec6/fifo_messege.db:fifo_messege'
+Loaded 10 designs.
+Current design is 'fifo_messege'.
+fifo_messege arb single_fifo fifo_int switch m55 noc_intf perm_blk blobk ps
+current_design ps
+Current design is 'ps'.
+{ps}
+create_clock t.clk -name t.clk -period 23.4875000000000003
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+1
+set_propagated_clock t.clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty 0.25 t.clk
+1
+set_propagated_clock t.clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_output_delay 0.5 -clock t.clk [all_outputs]
+1
+set all_inputs_wo_rst_t.clk [remove_from_collection [remove_from_collection [all_inputs] [get_port t.clk]] [get_port rst]]
+Warning: Can't find port 'rst' in design 'ps'. (UID-95)
+{t.reset t.noc_to_dev_ctl t.noc_to_dev_data[7] t.noc_to_dev_data[6] t.noc_to_dev_data[5] t.noc_to_dev_data[4] t.noc_to_dev_data[3] t.noc_to_dev_data[2] t.noc_to_dev_data[1] t.noc_to_dev_data[0] f.clk f.reset}
+set_driving_cell -lib_cell CND2X1 $all_inputs_wo_rst_t.clk
+Error: can't read "all_inputs_wo_rst_t": no such variable
+	Use error_info for more info. (CMD-013)
+set_input_delay 0.6 -clock t.clk $all_inputs_wo_rst_t.clk
+Error: can't read "all_inputs_wo_rst_t": no such variable
+	Use error_info for more info. (CMD-013)
+set_output_delay 0.6 -clock t.clk [all_outputs]
+1
+set_fix_hold [ get_clocks t.clk ]
+1
+set_output_delay 0.3 -clock t.clk [all_outputs]
+1
+set_max_delay 23.255 -from [all_inputs] -to [all_outputs]
+1
+compile_ultra
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | K-2015.06-DWBB_201506.5.1 |   *     |
+| Licensed DW Building Blocks        | I-2013.12-DWBB_201312.5 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 82 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+Information: Uniquified 4 instances of design 'fifo_int'. (OPT-1056)
+Information: Uniquified 4 instances of design 'single_fifo'. (OPT-1056)
+  Simplifying Design 'ps'
+
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Loaded alib file './alib-52/tc240c.db_NOMIN25.alib'
+  Building model 'DW01_NAND2'
+Information: Ungrouping hierarchy dut/f0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dut/a before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dut/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dut/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dut/f1 before Pass 1 (OPT-776)
+Information: Ungrouping 5 of 11 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'single_fifo_0'
+ Implement Synthetic for 'single_fifo_0'.
+  Processing 'switch'
+Information: Added key list 'DesignWare' to design 'switch'. (DDB-72)
+Information: The register 'cs_reg[1]' is a constant and will be removed. (OPT-1206)
+ Implement Synthetic for 'switch'.
+  Processing 'ps'
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: The register 'dut/alen_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dut/alen_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dut/alen_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dut/alen_reg[4]' is a constant and will be removed. (OPT-1206)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: Added key list 'DesignWare' to design 'single_fifo_3'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'single_fifo_2'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'single_fifo_1'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'single_fifo_0'. (DDB-72)
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+  Mapping Optimization (Phase 1)
+
+  Beginning Constant Register Removal
+  -----------------------------------
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+Information: Input delay ('fall') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 't.clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:01:20   67088.5      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:20   67088.5      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:20   67088.5      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:21   67047.0      0.00       0.0      81.8                              0.0000      0.00  
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:01:31   67040.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:01:33   67014.0      0.00       0.0      81.8                              0.0000      0.00  
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+    0:01:33   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:33   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:35   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:01:37   67014.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:41   68003.5      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:41   68003.5      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:41   68003.5      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:43   66977.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:46   66498.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:46   66498.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:46   66498.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:01:46   66498.0      0.00       0.0       0.0                              0.0000      0.00  
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'ps' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'dut/f3/f/clk': 8636 load(s), 1 driver(s), 4 inout(s)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Information: State dependent leakage is now switched from off to on.
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
+1
+create_clock t.clk -name t.clk -period 24.65
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+Error: Width mismatch on port 'Johans_stupid_signal' of reference to 'blobk' in 'ps'. (LINK-3)
+Warning: Unable to resolve reference 'blobk' in 'ps'. (LINK-5)
+1
+update_timing
+Information: Updating design information... (UID-85)
+Warning: Design 'ps' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+1
+report_timing -max_paths 5
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 5
+Design : ps
+Version: K-2015.06-SP5-1
+Date   : Sun Dec  6 17:32:36 2020
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NOMIN25   Library: tc240c
+Wire Load Model Mode: top
+
+  Startpoint: dut/f3/in_reg[4]
+              (rising edge-triggered flip-flop clocked by t.clk)
+  Endpoint: dut/f3/f/the_FIFO_reg[75][4]
+            (rising edge-triggered flip-flop clocked by t.clk)
+  Path Group: t.clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock t.clk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  dut/f3/in_reg[4]/CP (CFD2XL)                            0.00 #     0.00 r
+  dut/f3/in_reg[4]/Q (CFD2XL)                             1.33       1.33 r
+  dut/f3/f/in[4] (single_fifo_0)                          0.00       1.33 r
+  dut/f3/f/U3211/Z (CNIVX1)                               1.20       2.53 r
+  dut/f3/f/U3173/Z (CNIVXL)                               1.04       3.58 r
+  dut/f3/f/U3292/Z (CMX2X1)                               0.31       3.89 r
+  dut/f3/f/the_FIFO_reg[75][4]/D (CFD1QXL)                0.00       3.89 r
+  data arrival time                                                  3.89
+
+  clock t.clk (rise edge)                                24.65      24.65
+  clock network delay (ideal)                             0.00      24.65
+  clock uncertainty                                      -0.25      24.40
+  dut/f3/f/the_FIFO_reg[75][4]/CP (CFD1QXL)               0.00      24.40 r
+  library setup time                                     -0.22      24.18
+  data required time                                                24.18
+  --------------------------------------------------------------------------
+  data required time                                                24.18
+  data arrival time                                                 -3.89
+  --------------------------------------------------------------------------
+  slack (MET)                                                       20.29
+
+
+  Startpoint: dut/f3/in_reg[4]
+              (rising edge-triggered flip-flop clocked by t.clk)
+  Endpoint: dut/f3/f/the_FIFO_reg[74][4]
+            (rising edge-triggered flip-flop clocked by t.clk)
+  Path Group: t.clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock t.clk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  dut/f3/in_reg[4]/CP (CFD2XL)                            0.00 #     0.00 r
+  dut/f3/in_reg[4]/Q (CFD2XL)                             1.33       1.33 r
+  dut/f3/f/in[4] (single_fifo_0)                          0.00       1.33 r
+  dut/f3/f/U3211/Z (CNIVX1)                               1.20       2.53 r
+  dut/f3/f/U3173/Z (CNIVXL)                               1.04       3.58 r
+  dut/f3/f/U3301/Z (CMX2X1)                               0.31       3.89 r
+  dut/f3/f/the_FIFO_reg[74][4]/D (CFD1QXL)                0.00       3.89 r
+  data arrival time                                                  3.89
+
+  clock t.clk (rise edge)                                24.65      24.65
+  clock network delay (ideal)                             0.00      24.65
+  clock uncertainty                                      -0.25      24.40
+  dut/f3/f/the_FIFO_reg[74][4]/CP (CFD1QXL)               0.00      24.40 r
+  library setup time                                     -0.22      24.18
+  data required time                                                24.18
+  --------------------------------------------------------------------------
+  data required time                                                24.18
+  data arrival time                                                 -3.89
+  --------------------------------------------------------------------------
+  slack (MET)                                                       20.29
+
+
+  Startpoint: dut/f2/in_reg[6]
+              (rising edge-triggered flip-flop clocked by t.clk)
+  Endpoint: dut/f2/f/the_FIFO_reg[109][6]
+            (rising edge-triggered flip-flop clocked by t.clk)
+  Path Group: t.clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock t.clk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  dut/f2/in_reg[6]/CP (CFD2QXL)                           0.00 #     0.00 r
+  dut/f2/in_reg[6]/Q (CFD2QXL)                            1.33       1.33 r
+  dut/f2/f/in[6] (single_fifo_1)                          0.00       1.33 r
+  dut/f2/f/U3210/Z (CNIVX1)                               1.21       2.55 r
+  dut/f2/f/U3177/Z (CNIVXL)                               1.02       3.56 r
+  dut/f2/f/U3283/Z (CMX2X1)                               0.31       3.87 r
+  dut/f2/f/the_FIFO_reg[109][6]/D (CFD1QXL)               0.00       3.87 r
+  data arrival time                                                  3.87
+
+  clock t.clk (rise edge)                                24.65      24.65
+  clock network delay (ideal)                             0.00      24.65
+  clock uncertainty                                      -0.25      24.40
+  dut/f2/f/the_FIFO_reg[109][6]/CP (CFD1QXL)              0.00      24.40 r
+  library setup time                                     -0.22      24.18
+  data required time                                                24.18
+  --------------------------------------------------------------------------
+  data required time                                                24.18
+  data arrival time                                                 -3.87
+  --------------------------------------------------------------------------
+  slack (MET)                                                       20.31
+
+
+  Startpoint: dut/f2/in_reg[1]
+              (rising edge-triggered flip-flop clocked by t.clk)
+  Endpoint: dut/f2/f/the_FIFO_reg[108][1]
+            (rising edge-triggered flip-flop clocked by t.clk)
+  Path Group: t.clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock t.clk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  dut/f2/in_reg[1]/CP (CFD2QXL)                           0.00 #     0.00 r
+  dut/f2/in_reg[1]/Q (CFD2QXL)                            1.33       1.33 r
+  dut/f2/f/in[1] (single_fifo_1)                          0.00       1.33 r
+  dut/f2/f/U3206/Z (CNIVX1)                               1.21       2.55 r
+  dut/f2/f/U3173/Z (CNIVXL)                               1.02       3.56 r
+  dut/f2/f/U3287/Z (CMX2X1)                               0.31       3.87 r
+  dut/f2/f/the_FIFO_reg[108][1]/D (CFD1QXL)               0.00       3.87 r
+  data arrival time                                                  3.87
+
+  clock t.clk (rise edge)                                24.65      24.65
+  clock network delay (ideal)                             0.00      24.65
+  clock uncertainty                                      -0.25      24.40
+  dut/f2/f/the_FIFO_reg[108][1]/CP (CFD1QXL)              0.00      24.40 r
+  library setup time                                     -0.22      24.18
+  data required time                                                24.18
+  --------------------------------------------------------------------------
+  data required time                                                24.18
+  data arrival time                                                 -3.87
+  --------------------------------------------------------------------------
+  slack (MET)                                                       20.31
+
+
+  Startpoint: dut/f0/in_reg[0]
+              (rising edge-triggered flip-flop clocked by t.clk)
+  Endpoint: dut/f0/f/the_FIFO_reg[64][0]
+            (rising edge-triggered flip-flop clocked by t.clk)
+  Path Group: t.clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock t.clk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  dut/f0/in_reg[0]/CP (CFD2QXL)                           0.00 #     0.00 r
+  dut/f0/in_reg[0]/Q (CFD2QXL)                            1.33       1.33 r
+  dut/f0/f/in[0] (single_fifo_3)                          0.00       1.33 r
+  dut/f0/f/U3211/Z (CNIVX1)                               1.22       2.55 r
+  dut/f0/f/U3180/Z (CNIVXL)                               1.01       3.56 r
+  dut/f0/f/U3333/Z (CMX2X1)                               0.31       3.86 r
+  dut/f0/f/the_FIFO_reg[64][0]/D (CFD1QXL)                0.00       3.86 r
+  data arrival time                                                  3.86
+
+  clock t.clk (rise edge)                                24.65      24.65
+  clock network delay (ideal)                             0.00      24.65
+  clock uncertainty                                      -0.25      24.40
+  dut/f0/f/the_FIFO_reg[64][0]/CP (CFD1QXL)               0.00      24.40 r
+  library setup time                                     -0.22      24.18
+  data required time                                                24.18
+  --------------------------------------------------------------------------
+  data required time                                                24.18
+  data arrival time                                                 -3.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       20.32
+
+
+1
+write -hierarchy -format verilog -output ps_gates.v
+Writing verilog file '/home/014604460/final_proj_dec6/ps_gates.v'.
+1
+quit
+
+Thank you...
